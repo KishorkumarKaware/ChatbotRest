@@ -18,7 +18,7 @@ public class Validate_Data_Excel
 	public String getBalance(int c_no)throws IOException
 	{
 		System.out.println(c_no);
-		File excel = new File("D:\\AutomationEdge\\BankData.xls");
+		File excel = new File("BankData.xls");
 	        FileInputStream fis = new FileInputStream(excel);
 	               
 	        HSSFWorkbook wb = new HSSFWorkbook(fis);
