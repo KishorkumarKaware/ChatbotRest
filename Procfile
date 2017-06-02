@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/* com.chatbot.business
+web: java -cp target/classes:target/dependency/* com.chatbot.business
